@@ -20,7 +20,7 @@ To get started with python, please follow [these instructions](https://sagol-pyt
 
 - [Assignment 1](assignments/assignment1/HW1.md)
 - [Assignment 2](https://classroom.github.com/a/L_IWUAsx)
-<!-- - [Assignment 3](https://classroom.github.com/a/nYTv8cUx) -->
+- [Assignment 3](https://classroom.github.com/a/mCO3Yotd)
 <!-- - [Assignment 4](https://classroom.github.com/a/dswhOPYU) -->
 <!-- - [Assignment 5](https://github.com/sagol-python-for-neuroscientists/hw5-2024.git) - **Make sure to read the "special" submission guidelines!** -->
 <!-- - [Assignment 6](https://classroom.github.com/a/daUT1-vE)  -->
