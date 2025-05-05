@@ -61,7 +61,7 @@ assignments/assignment2/*pdf
 #assignments/assignment3
 assignments/assignment3/*pdf
 assignments/assignment3/hw*
-assignments/assignment4
+#assignments/assignment4
 assignments/assignment5
 assignments/assignment6
 # assignments/assignment1/*.py
