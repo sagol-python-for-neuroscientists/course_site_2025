@@ -67,6 +67,8 @@ def test_email_validation():
     assert truth["email"].equals(corrected["email"])
 
 
+
+
 def test_fillna_rows():
     truth = np.load('tests_data/q3_fillna.npy')
     fname = 'data.json'
@@ -101,11 +103,13 @@ def test_score_dtype():
 
 
 def test_score_results():
-    truth = pd.read_csv('tests_data/q4_score.csv', squeeze=True, index_col=0).astype("UInt8")
+    truth = pd.read_csv('tests_data/q4_score.csv', index_col=0).astype("UInt8")
+    print(f"truth datatype: {truth.dtypes}")
     fname = 'data.json'
     q = QuestionnaireAnalysis(fname)
     q.read_data()
     df = q.score_subjects()
+    print(f"df datatype: {df.dtypes}")
     assert df["score"].equals(truth)
 
 
