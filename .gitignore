@@ -68,7 +68,7 @@ assignments/assignment6
 assignments/assignment2/hw*.py
 assignments/assignment3/hw*.py
 assignments/assignment4/hw*.py
-assignments/assignment5/hw*.py
+# assignments/assignment5/hw*.py
 
 # Hackathon
 hackathon-projects.md*
