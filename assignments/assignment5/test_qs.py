@@ -2,7 +2,7 @@ import pathlib
 
 import pytest
 
-from hw5 import *
+from questionnaire_analysis import *
 
 
 def test_valid_input():
@@ -103,7 +103,7 @@ def test_score_dtype():
 
 
 def test_score_results():
-    truth = pd.read_csv('tests_data/q4_score.csv', index_col=0).astype("UInt8")
+    truth = pd.read_csv('tests_data/q4_score.csv', index_col=0).astype("UInt8").squeeze()
     print(f"truth datatype: {truth.dtypes}")
     fname = 'data.json'
     q = QuestionnaireAnalysis(fname)
