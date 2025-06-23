@@ -71,7 +71,7 @@ assignments/assignment4/hw*.py
 # assignments/assignment5/hw*.py
 
 # Hackathon
-hackathon-projects.md*
-hackathon*
+# hackathon-projects.md*
+# hackathon*
 *.ods*g
 *.xlsx
